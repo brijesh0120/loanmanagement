@@ -1,7 +1,0 @@
----
-deployment:
- tasks:
-  - export DEPLOYPATH=/home/zmmapxvc/public_html/git
-  - /bin/rm -Rf $DEPLOYPATH
-  - /bin/mkdir $DEPLOYPATH
-  - /bin/cp -R src/ $DEPLOYPATH
